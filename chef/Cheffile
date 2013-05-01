@@ -13,4 +13,3 @@ cookbook 'nodejs'
 cookbook 'database'
 cookbook 'rvm',
   git: 'git://github.com/fnichol/chef-rvm.git'
-cookbook 'ruby_build'

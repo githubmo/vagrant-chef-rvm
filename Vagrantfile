@@ -7,7 +7,7 @@ Vagrant::Config.run do |config|
   config.vm.host_name = 'chef-rails-dev-box'
 
   config.vm.network :hostonly, "192.168.30.00"
-  config.vm.share_folder("vagrant-root", "/vagrant", ".", "nfs" => true)
+  config.vm.share_folder("vagrant-root", "/vagrant", "./LocalSupport", "nfs" => true)
   config.vm.forward_port 3000, 3000
 
   config.vm.provision :chef_solo do |chef|
