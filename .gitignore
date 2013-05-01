@@ -1,0 +1,4 @@
+.vagrant*
+rails
+tmp
+chef/cookbooks
