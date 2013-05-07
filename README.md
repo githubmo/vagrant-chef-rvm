@@ -18,6 +18,7 @@ Simply follow the commands below for a quick setup. If your gems are installed i
 
 ```shell
 git clone git://github.com/githubmo/vagrant-chef-rvm.git
+cd vagrant-chef-rvm
 bundle install
 cd chef
 librarian-chef install
